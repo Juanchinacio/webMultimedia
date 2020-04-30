@@ -1,0 +1,353 @@
+@charset "utf-8";
+body {
+	background-color: #F7F7F8;
+}
+
+.cuerpo {
+    width: 800px;
+    /* [disabled]border: 3px solid #000000; */
+    font-family: actor;
+    font-style: normal;
+    font-weight: 400;
+}
+.cuerpo .cabecera {
+	background-color: #ff8000;
+	clear: left;
+	height: 93px;
+}
+.cuerpo .cabecera .logo {
+	/* [disabled]background-color: #001DFF; */
+	width: 269px;
+	float: left;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.cuerpo .cabecera .menu {
+    width: 400px;
+    /* [disabled]background-color: #FF0000; */
+    float: right;
+    margin-top: 56px;
+    font-size: 20px;
+    text-align: left;
+    text-indent: 14px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.cuerpo .contenido {
+
+}
+.cuerpo .contenido .juego_principal {
+
+}
+.contenido .juego_principal .snow {
+	width: 800px;
+}
+.cuerpo .contenido .titulo_destacados {
+	/* [disabled]background-color: #00F9D6; */
+	font-size: 26px;
+	margin-top: 15px;
+	font-weight: 900;
+}
+.cuerpo .contenido .juegos {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-left: 35px;
+	margin-right: 30px;
+}
+
+.contenido .juegos .img_videojuegos {
+	float: left;
+
+}
+.img_cuadrado   {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+.cuerpo .contenido .todos_juegos {
+	clear: left;
+	/* [disabled]background-color: #1A2115; */
+	color: #FFFFFF;
+	margin-bottom: 25px;
+}
+.contenido .todos_juegos .cuadrado {
+	background-color: #FF8000;
+	width: 130px;
+	height: 27px;
+	font-size: 18px;
+	padding-top: 5px;
+}
+a   {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #939393;
+    /* [disabled]background-color: #B65B00; */
+}
+a:active {
+    color: #161616;
+}
+
+
+
+
+.cuerpo .informacion {
+	clear: left;
+	background-color: #ff8000;
+	height: 320px;
+}
+.cuerpo .informacion .informacion2 {
+	padding-top: 29px;
+	padding-bottom: 20px;
+
+}
+
+.cuerpo .informacion .trabajo {
+	width: 398px;
+	float: left;
+	/* [disabled]background-color: #FFFD00; */
+	border-right: 1px solid #FFFFFF;
+}
+.informacion .titulo_informacion  {
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: bolder;
+	margin-top: -1px;
+}
+.informacion .descripcion_informacion {
+	color: #FFFFFF;
+	width: 350px;
+	padding-top: 27px;
+	text-align: left;
+	margin-left: 44px;
+}
+.informacion .cuadrado_informacion {
+	padding-top: 70px;
+}
+.cuadrado_informacion .cuadrado_inverso {
+	color: #FF8000;
+	background-color: #FFFFFF;
+	width: 120px;
+	height: 30px;
+	padding-top: 8px;
+	font-size: 20px;
+}
+.cuadrado_inverso a {
+    color: #FF8000;
+}
+.cuadrado_inverso a:hover  {
+    color: #939393;
+}
+.cuadrado_inverso a:active  {
+    color: #161616;
+}
+
+
+
+
+
+
+
+
+.cuerpo .informacion .sobre_nosotros {
+	/* [disabled]background-color: #00FF6C; */
+	float: right;
+	width: 400px;
+}
+.cuerpo .redes_sociales {
+	clear: left;
+	background-color: #F7F7F8;
+	height: 195px;
+}
+.cuerpo .redes_sociales .IMG-CIRCULAR {
+	width: 125px;
+	float: left;
+	margin-left: 50px;
+	margin-right: 10px;
+	height: 125px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.cuerpo .pie_de_pagina {
+	clear: left;
+	background-color: #161616;
+	padding-bottom: 15px;
+	color: #FFFFFF;
+}
+.pie_de_pagina p {
+	width: 750px;
+	padding-top: 20px;
+	margin-top: -1px;
+}
+.cabecera a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.cabecera a:hover {
+    color: #939393;
+    text-decoration: none;
+
+}
+.cabecera a:active {
+    text-decoration: none;
+    color: #161616;
+}
+.juego_izq {
+    /* [disabled]background-color: #FFB66D; */
+    /* [disabled]width: 800px; */
+    height: 200px;
+    margin-top: 20px;
+    /* [disabled]margin-bottom: 50px; */
+    /* [disabled]margin-left: 20px; */
+    clear: left;
+    /* [disabled]border-left-color: #ff8000; */
+    /* [disabled]border-right-color: #ff8000; */
+    border-bottom: 2px solid #ff8000;
+    border-top: 2px solid #ff8000;
+    /* [disabled]border-left-style: solid; */
+    /* [disabled]border-right-style: solid; */
+    /* [disabled]border-left-width: 2px; */
+    /* [disabled]border-right-width: 2px; */
+    color: #000000;
+}
+.juego_izq a {
+    color: #000000;
+    background-color: #FF0004;
+}
+
+
+
+
+.img_izq  {
+    background-color: #FF0004;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.img_drcha {
+    background-color: #FF0004;
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+.descripcion_drcha   {
+    float: left;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.descripcion_drcha p  {
+    text-align: left;
+    width: 400px;
+}
+.descripcion_izq {
+    float: right;
+    margin-top: 20px;
+    margin-right: 110px;
+}
+
+.descripcion_izq p {
+    text-align: left;
+    width: 400px;
+}
+.formulario {
+    /* [disabled]background-color: #FF0004; */
+    text-align: left;
+    width: 600px;
+    border-top: 2px solid #FF8000;
+    padding-top: 35px;
+    padding-left: 30px;
+    border-bottom: 2px solid #FF8000;
+    padding-bottom: 25px;
+}
+.SobreNosotros {
+    /* [disabled]background-color: #FF0004; */
+    margin-top: 30px;
+}
+
+.img-sobrenosotros {
+    width: 270px;
+    float: left;
+    /* [disabled]height: 300px; */
+    /* [disabled]background-color: #0200FF; */
+}
+.inf-sobrenosotros {
+    text-align: left;
+    /* [disabled]background-color: #FF0004; */
+    float: left;
+    width: 488px;
+    margin-left: 20px;
+}
+.Juegos {
+    margin-top: 15px;
+    /* [disabled]background-color: #FF0004; */
+}
+
+.TITULO-JUEGO {
+    /* [disabled]background-color: #FF0004; */
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #FF8000;
+    border-top: 2px solid #FF8000;
+    clear: left;
+    width: 400px;
+}
+.img-juego {
+    float: left;
+    margin-bottom: 112px;
+    width: 350px;
+
+}
+.img-snow {
+    width: 350px;
+}
+.inf-juego {
+    width: 400px;
+    /* [disabled]background-color: #FF0004; */
+    float: left;
+    margin-left: 19px;
+    text-align: left;
+    margin-top: 10px;
+}
+.link-juego {
+    clear: left;
+    background-color: #FF8000;
+    width: 800px;
+    color: #FFFFFF;
+    height: 30px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+.link-juego a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 17px;
+}
+.link-juego a:hover  {
+    color: #939393;
+    text-decoration: none;
+}
+.link-juego a:active  {
+    color: #161616;
+    text-decoration: none;
+}
+.img-zenzai {
+    width: 270px;
+    height: 400px;
+}
+.img-legacy {
+    width: 320px;
+    height: 400px;
+}
+.img-jumping {
+    width: 320px;
+    height: 320px;
+
+}
